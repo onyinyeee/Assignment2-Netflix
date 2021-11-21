@@ -47,34 +47,7 @@ export const Shelf = () => {
                     </div>
                 </li>
 
-                <li>
-                    <div className="tiles">
-                    <img src={img6} className="imgs"/>
-                    </div>
-                </li>
-
-                <li>
-                    <div className="tiles">
-                    <img src={img7} className="imgs"/>
-                    </div>
-                </li>
-
-                <li>
-                    <div className="tiles">
-                    <img src={img8} className="imgs"/>
-                    </div>
-                </li>
-                <li>
-                    <div className="tiles">
-                    <img src={img11} className="imgs"/>
-                    </div>
-                </li>
-
-                <li>
-                    <div className="tiles">
-                    <img src={img10} className="imgs" />
-                    </div>
-                </li>
+                
             </ul>
        
     

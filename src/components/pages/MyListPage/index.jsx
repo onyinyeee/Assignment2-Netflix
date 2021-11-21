@@ -7,7 +7,8 @@ const MyListPage = ()=>{
         <div className="shoes">
             <h2> my List</h2>
             <Shelf/>
-            <h2> Trending Now</h2>
+            <Shelf/>
+            <Shelf/>
             <Shelf/>
         </div>
     )

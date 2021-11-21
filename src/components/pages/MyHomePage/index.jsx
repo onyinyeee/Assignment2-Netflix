@@ -9,6 +9,10 @@ const MyHomePage = ()=>{
             <Banner/>
             <h3> My List </h3>
             <Shelf/>
+            <h3> Trending Now</h3>
+            <Shelf/>
+            <h3> Popular on Netflix</h3>
+            <Shelf/>
         </div>
     )
  }

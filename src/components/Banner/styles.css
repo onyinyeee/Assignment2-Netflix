@@ -4,32 +4,57 @@
     left: 0;
     right: 0;
     margin: -83px -10px;
-    
     width: 100%;
     height: 56.25vw;
-    z-index: -1;
+    z-index: -5;
+    
 }
 
 .bannerPic {
    
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 50%;
+   
+    
 }
 
 .onTop {
     width: 10rem;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    display: grid;
     justify-content: flex-end;
-    bottom: 35%;
-    left: 4%;
+    bottom: 10%;
+    left: 3%;
     z-index: 5;
-    top: 50%;
+    top: 40%;
     cursor: pointer;
 }
 
-.butts {
+.coverPic {
+    position: relative;
+    top: 15rem;
+    margin-left: 3rem;
+    bottom: 0;
+
+}
+
+.description {
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cover {
+    height: 15rem;
+    
+}
+
+.butts {
+    display: grid;
+}
+
+.workB {
+    display: grid;
+    list-style: none;
 }
