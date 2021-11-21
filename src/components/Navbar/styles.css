@@ -1,0 +1,70 @@
+.navbar ul{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    color: #e5e5e5;
+    align-items: center;
+    
+}
+.navbar {
+    background-color: linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0));
+    color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin: 0;
+}
+
+.navbar li{
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.navbar a.netLogo {
+    max-width: 92.5px;
+    height: fit-content;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.navbar a.rightLogos {
+    max-width: 92.5px;
+    height: fit-content;
+    align-items: center;
+    position: inherit;
+    padding-left: 0;
+    padding-right: 1rem;
+    right: 0;
+
+}
+
+.navbar a.nav-selected {
+}
+
+.navbar a.fromSearch {
+    padding-left: 37rem;
+    
+}
+
+
+.tog {
+    display: flex;
+    display: table-row;
+    align-content: center;
+    padding-right: 2px;
+    margin-right: 1px;
+}
+
+
+
+@media only screen and (min-widht:600px) {
+    .navbar ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
