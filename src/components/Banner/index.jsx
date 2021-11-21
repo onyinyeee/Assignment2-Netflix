@@ -13,7 +13,7 @@ export const Banner = () => {
             <img src={coverImg} className="cover" alt="coverIMage"/>   
             </div>
             <div className="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at nisl vestibulum,
+            Lorem ipsum  dolorr consectetur adipiscing elit. Maecenas at nisl vestibulum,
               </div>
             <div className="onTop">
                 <ul className="workB">
