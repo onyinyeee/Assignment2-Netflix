@@ -23,7 +23,6 @@ function App() {
         <MyHomePage></MyHomePage>
       </Route>
       <Route path="/new">
-        hi
         <MyListPage></MyListPage>
       </Route>
     </Switch>
